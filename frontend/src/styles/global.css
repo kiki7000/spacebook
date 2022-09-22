@@ -1,0 +1,21 @@
+html {
+    scrollbar-width: thin;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #2a2626;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #858585;
+}
+
+.btn {
+    @apply border-color-lblue border-1 border-opacity-50 rounded-md text-color-lblue text-xs
+}
